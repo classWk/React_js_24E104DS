@@ -1,0 +1,63 @@
+.register {
+    height: 100%;
+    display: flex;
+  }
+  
+  .register .formContainer {
+    flex: 3;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .register .formContainer form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .register .formContainer form input {
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+  }
+  
+  .register .formContainer form button {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .register .formContainer form button:disabled {
+    background-color: #bed9d8;
+    cursor: not-allowed;
+  }
+  
+  .register .formContainer form span {
+    color: rgba(255, 0, 0, 0.591);
+  }
+  
+  .register .formContainer form a {
+    font-size: 14px;
+    color: gray;
+    border-bottom: 1px solid gray;
+    width: max-content;
+  }
+  
+  .register .imgContainer {
+    flex: 2;
+    background-color: #fcf5f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .register .imgContainer img {
+    width: 100%;
+  }
+  

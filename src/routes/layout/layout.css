@@ -1,0 +1,41 @@
+.layout {
+    height: 100vh;
+    max-width: 1366px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .content{
+      background-color: aquamarine;
+      flex: 1;
+    }
+    
+  }
+  @media (max-width: 1366px) {
+    .layout {
+      /* background-color:  red; */
+      max-width: 1280px
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .layout {
+    /* background-color: blueviolet; */
+    max-width: 938px;
+    }
+  }
+  
+  @media (max-width: 738px) {
+    .layout {
+      /* background-color: chocolate; */
+      max-width: 652px;
+    }
+  }
+  .content {
+    height: calc(100vh - 100px);
+  }
+
+  
